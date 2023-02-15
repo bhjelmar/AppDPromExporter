@@ -2,6 +2,48 @@
 
 Scrape metrics from AppDynamics Controller and expose them for Prometheus consumption.
 
+## Output
+
+Metrics defined in `input/DefaultMapping.json` will be exposed on `http://localhost:9877` by default.
+
+Metrics will be converted in the following way:
+1. append the EntityType to the beginning
+2. normalizing the metric path by replacing all non-alphanumeric characters with underscores
+3. replacing stars with associated the label key
+4. register the metric with its associated dynamic labels
+
+### Example
+
+`DefaultMapping.tsv`
+
+| EntityType | MetricPath                                                                             | MetricName                 | Labels     |
+|------------|----------------------------------------------------------------------------------------|----------------------------|------------|
+| APM        | Overall Application Performance&#124;Average Response Time (ms)                        | Average Response Time (ms) |            |
+| APM        | Overall Application Performance&#124;*&#124;Average Response Time (ms)                 | Average Response Time (ms) | tier	      |
+| APM        | Application Infrastructure Performance&#124;\*&#124;Individual Nodes&#124;*&#124;Agent | App&#124;Availability      | tier,node	 |
+
+
+Will register the following metrics
+- `apm:overall_application_performance_average_response_time__ms_`
+- `apm:overall_application_performance_TIER_average_response_time__ms_`
+- `apm:application_infrastructure_performance_TIER_individual_nodes_NODE_agent_app_availability`
+
+For each of these metrics, we will query AppDynamics:
+- `apm:overall_application_performance_average_response_time__ms_`
+  - one series returned for each application
+    - `apm:overall_application_performance_average_response_time__ms_{application="foo"}`
+    - `apm:overall_application_performance_average_response_time__ms_{application="bar"}`
+- `apm:overall_application_performance_TIER_average_response_time__ms_`
+  - one series returned for each application/tier combination
+    - `apm:overall_application_performance_TIER_average_response_time__ms_`
+      - `apm:overall_application_performance_TIER_average_response_time__ms_{application="foo",tier="bar"}`
+      - `apm:overall_application_performance_TIER_average_response_time__ms_{application="foo",tier="baz"}`
+- `apm:application_infrastructure_performance_TIER_individual_nodes_NODE_agent_app_availability`
+  - one series returned for each application/tier/node combination
+    - `apm:application_infrastructure_performance_TIER_individual_nodes_NODE_agent_app_availability`
+      - `apm:application_infrastructure_performance_TIER_individual_nodes_NODE_agent_app_availability{application="foo",tier="bar",node="baz"}`
+      - `apm:application_infrastructure_performance_TIER_individual_nodes_NODE_agent_app_availability{application="foo",tier="bar",node="qux"}`
+
 ## Usage
 
 Run from source
