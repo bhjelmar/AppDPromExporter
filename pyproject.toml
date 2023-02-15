@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "appdpromexporter"
+version = "0.1.0"
+description = ""
+authors = ["bhjelmar <bhjelmar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+uplink = "^0.9.7"
+prometheus-client = "^0.16.0"
+loguru = "^0.6.0"
+click = "^8.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

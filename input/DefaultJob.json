@@ -1,0 +1,18 @@
+[
+    {
+        "host": "acme.saas.appdynamics.com",
+        "port": 443,
+        "ssl": true,
+        "account": "acme",
+        "username": "admin",
+        "pwd": "Hunter2",
+        "verifySsl": true,
+        "useProxy": true,
+        "applicationFilter": {
+            "apm": ".*",
+            "mrum": ".*",
+            "brum": ".*"
+        },
+        "refreshIntervalMinutes": 1
+    }
+]

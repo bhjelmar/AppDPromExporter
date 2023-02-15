@@ -1,0 +1,245 @@
+EntityType	MetricPath	MetricName	Labels
+APM	Overall Application Performance|Average Response Time (ms)	Average Response Time (ms)	
+APM	Overall Application Performance|Calls per Minute	Calls per Minute	
+APM	Overall Application Performance|Errors per Minute	Errors per Minute	
+APM	Overall Application Performance|Exceptions per Minute	Exceptions per Minute	
+APM	Overall Application Performance|HTTP Error Codes per Minute	HTTP Error Codes per Minute	
+APM	Overall Application Performance|*|Average Response Time (ms)	Average Response Time (ms)	tier
+APM	Overall Application Performance|*|Calls per Minute	Calls per Minute	tier
+APM	Overall Application Performance|*|Errors per Minute	Errors per Minute	tier
+APM	Overall Application Performance|*|Exceptions per Minute	Exceptions per Minute	tier
+APM	Overall Application Performance|*|HTTP Error Codes per Minute	HTTP Error Codes per Minute	tier
+APM	Overall Application Performance|*|External Calls|*|Average Response Time (ms)	Average Response Time (ms)	tier,backend
+APM	Overall Application Performance|*|External Calls|*|Calls per Minute	Calls per Minute	tier,backend
+APM	Overall Application Performance|*|External Calls|*|Errors per Minute	Errors per Minute	tier,backend
+APM	Application Infrastructure Performance|*|Agent|App|Availability	App|Availability	tier
+APM	Application Infrastructure Performance|*|Agent|Machine|Availability	Machine|Availability	tier
+APM	Application Infrastructure Performance|*|Agent|Metric Upload|Metrics uploaded	Metrics uploaded	tier
+APM	Application Infrastructure Performance|*|Hardware Resources|CPU|%Busy	CPU|%Busy	tier
+APM	Application Infrastructure Performance|*|Hardware Resources|Memory|Used (MB)	Memory|Used (MB)	tier
+APM	Application Infrastructure Performance|*|Hardware Resources|Disks|KB written/sec	Disks|KB written/sec	tier
+APM	Application Infrastructure Performance|*|Hardware Resources|Disks|KB read/sec	Disks|KB read/sec	tier
+APM	Application Infrastructure Performance|*|Hardware Resources|Network|Incoming KB/sec	Network|Incoming KB/sec	tier
+APM	Application Infrastructure Performance|*|Hardware Resources|Network|Outgoing KB/sec	Network|Outgoing KB/sec	tier
+APM	Application Infrastructure Performance|*|CLR|Process CPU Burnt (%)	CLR|Process CPU Burnt (%)	tier
+APM	Application Infrastructure Performance|*|CLR|Memory|Heap|Current Usage (bytes)	Heap|Current Usage (bytes)	tier
+APM	Application Infrastructure Performance|*|CLR|Memory|Heap|Gen 0 Usage (bytes)	Heap|Gen 0 Usage (bytes)	tier
+APM	Application Infrastructure Performance|*|CLR|Memory|Heap|Gen 1 Usage (bytes)	Heap|Gen 1 Usage (bytes)	tier
+APM	Application Infrastructure Performance|*|CLR|Memory|Heap|Gen 2 Usage (bytes)	Heap|Gen 2 Usage (bytes)	tier
+APM	Application Infrastructure Performance|*|CLR|Memory|Large Object Heap|Current Usage (bytes)	Large Object Heap|Current Usage (bytes)	tier
+APM	Application Infrastructure Performance|*|CLR|Garbage Collection|GC Time Spent (%)	GC Time Spent (%)	tier
+APM	Application Infrastructure Performance|*|CLR|Garbage Collection|Number of Induced GCs	Number of Induced GCs	tier
+APM	Application Infrastructure Performance|*|IIS|CPU%	IIS|CPU%	tier
+APM	Application Infrastructure Performance|*|IIS|Working Set	IIS|Working Set	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests Failed	Requests Failed	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests Not Found	Requests Not Found	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests Timed Out	Requests Timed Out	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests Total	Requests Total	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests Not Authorized	Requests Not Authorized	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Errors Unhandled During Execution	Errors Unhandled During Execution	tier
+APM	Application Infrastructure Performance|*|ASP.NET|Request Wait Time	Request Wait Time	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests Executing	Requests Executing	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Requests/sec	ASP.NET Applications|Requests/sec	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Anonymous Requests/sec	Anonymous Requests/sec	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Errors Total/sec	Errors Total/sec	tier
+APM	Application Infrastructure Performance|*|ASP.NET Applications|Pipeline Instance Count	Pipeline Instance Count	tier
+APM	Application Infrastructure Performance|*|ASP.NET|Requests Queued	Requests Queued	tier
+APM	Application Infrastructure Performance|*|JVM|Process CPU Usage %	JVM|Process CPU Usage %	tier
+APM	Application Infrastructure Performance|*|JVM|Memory|Heap|Current Usage (MB)	Heap|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Memory|Non-Heap|Current Usage (MB)	Non-Heap|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|GC Time Spent Per Min (ms)	GC Time Spent Per Min (ms)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)	Major Collection Time Spent Per Min (ms)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)	Minor Collection Time Spent Per Min (ms)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|Code Cache|Current Usage (MB)	Code Cache|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|Compressed Class Space|Current Usage (MB)	Compressed Class Space|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|Metaspace|Current Usage (MB)	Metaspace|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|PS Eden Space|Current Usage (MB)	PS Eden Space|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|PS Old Gen|Current Usage (MB)	PS Old Gen|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|PS Perm Gen|Current Usage (MB)	PS Perm Gen|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JVM|Garbage Collection|Memory Pools|PS Survivor Space|Current Usage (MB)	PS Survivor Space|Current Usage (MB)	tier
+APM	Application Infrastructure Performance|*|JMX|Sessions|activeSessions	JMX|Sessions|activeSessions	tier
+APM	Application Infrastructure Performance|*|JMX|JDBC Connection Pools|*|Active Connections	Active Connections	tier,pool
+APM	Application Infrastructure Performance|*|JMX|JDBC Connection Pools|*|Maximum Connections	Maximum Connections	tier,pool
+APM	Application Infrastructure Performance|*|JMX|Web Container Runtime|*|Request Count	Request Count	tier,runtime
+APM	Application Infrastructure Performance|*|JMX|Web Container Runtime|*|Error Count	Error Count	tier,runtime
+APM	Application Infrastructure Performance|*|JMX|Web Container Runtime|*|Current Threads In Pool	Current Threads In Pool	tier,runtime
+APM	Application Infrastructure Performance|*|JMX|Web Container Runtime|*|Busy Threads	Busy Threads	tier,runtime
+APM	Application Infrastructure Performance|*|JMX|Web Container Runtime|*|Maximum Threads	Maximum Threads	tier,runtime
+APM	Application Infrastructure Performance|*|Custom Metrics|ECommerce Demo|Slow Query Calls|Call Count	Slow Query Calls|Call Count	tier
+APM	Overall Application Performance|*|Individual Nodes|*|Average Response Time (ms)	Average Response Time (ms)	tier,node
+APM	Overall Application Performance|*|Individual Nodes|*|Calls per Minute	Calls per Minute	tier,node
+APM	Overall Application Performance|*|Individual Nodes|*|Errors per Minute	Errors per Minute	tier,node
+APM	Overall Application Performance|*|Individual Nodes|*|Exceptions per Minute	Exceptions per Minute	tier,node
+APM	Overall Application Performance|*|Individual Nodes|*|HTTP Error Codes per Minute	HTTP Error Codes per Minute	tier,node
+APM	Overall Application Performance|*|Individual Nodes|*|External Calls|*|Average Response Time (ms)	Average Response Time (ms)	tier,node,backend
+APM	Overall Application Performance|*|Individual Nodes|*|External Calls|*|Calls per Minute	Calls per Minute	tier,node,backend
+APM	Overall Application Performance|*|Individual Nodes|*|External Calls|*|Errors per Minute	Errors per Minute	tier,node,backend
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Agent|App|Availability	App|Availability	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Agent|Machine|Availability	Machine|Availability	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Agent|Metric Upload|Metrics uploaded	Metrics uploaded	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|CPU|%Busy	CPU|%Busy	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Memory|Used (MB)	Memory|Used (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Disks|KB written/sec	Disks|KB written/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Disks|KB read/sec	Disks|KB read/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Network|Incoming KB/sec	Network|Incoming KB/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Network|Outgoing KB/sec	Network|Outgoing KB/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Process CPU Burnt (%)	CLR|Process CPU Burnt (%)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Memory|Heap|Current Usage (bytes)	Heap|Current Usage (bytes)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Memory|Heap|Gen 0 Usage (bytes)	Heap|Gen 0 Usage (bytes)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Memory|Heap|Gen 1 Usage (bytes)	Heap|Gen 1 Usage (bytes)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Memory|Heap|Gen 2 Usage (bytes)	Heap|Gen 2 Usage (bytes)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Memory|Large Object Heap|Current Usage (bytes)	Large Object Heap|Current Usage (bytes)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Garbage Collection|GC Time Spent (%)	GC Time Spent (%)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|CLR|Garbage Collection|Number of Induced GCs	Number of Induced GCs	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|IIS|CPU%	IIS|CPU%	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|IIS|Working Set	IIS|Working Set	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests Failed	Requests Failed	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests Not Found	Requests Not Found	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests Timed Out	Requests Timed Out	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests Total	Requests Total	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests Not Authorized	Requests Not Authorized	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Errors Unhandled During Execution	Errors Unhandled During Execution	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET|Request Wait Time	Request Wait Time	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests Executing	Requests Executing	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Requests/sec	ASP.NET Applications|Requests/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Anonymous Requests/sec	Anonymous Requests/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Errors Total/sec	Errors Total/sec	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET Applications|Pipeline Instance Count	Pipeline Instance Count	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|ASP.NET|Requests Queued	Requests Queued	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Process CPU Usage %	JVM|Process CPU Usage %	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Memory|Heap|Current Usage (MB)	Heap|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Memory|Non-Heap|Current Usage (MB)	Non-Heap|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|GC Time Spent Per Min (ms)	GC Time Spent Per Min (ms)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)	Major Collection Time Spent Per Min (ms)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)	Minor Collection Time Spent Per Min (ms)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|Code Cache|Current Usage (MB)	Code Cache|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|Compressed Class Space|Current Usage (MB)	Compressed Class Space|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|Metaspace|Current Usage (MB)	Metaspace|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|PS Eden Space|Current Usage (MB)	PS Eden Space|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|PS Old Gen|Current Usage (MB)	PS Old Gen|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|PS Perm Gen|Current Usage (MB)	PS Perm Gen|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JVM|Garbage Collection|Memory Pools|PS Survivor Space|Current Usage (MB)	PS Survivor Space|Current Usage (MB)	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|Sessions|activeSessions	JMX|Sessions|activeSessions	tier,node
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|JDBC Connection Pools|*|Active Connections	Active Connections	tier,node,jdbc_connection_pool
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|JDBC Connection Pools|*|Maximum Connections	Maximum Connections	tier,node,jdbc_connection_pool
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|Web Container Runtime|*|Request Count	Request Count	tier,node,web_container_runtime
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|Web Container Runtime|*|Error Count	Error Count	tier,node,web_container_runtime
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|Web Container Runtime|*|Current Threads In Pool	Current Threads In Pool	tier,node,web_container_runtime
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|Web Container Runtime|*|Busy Threads	Busy Threads	tier,node,web_container_runtime
+APM	Application Infrastructure Performance|*|Individual Nodes|*|JMX|Web Container Runtime|*|Maximum Threads	Maximum Threads	tier,node,web_container_runtime
+APM	Backends|*|Average Response Time (ms)	Average Response Time (ms)	backend
+APM	Backends|*|Calls per Minute	Calls per Minute	backend
+APM	Backends|*|Errors per Minute	Errors per Minute	backend
+APM	Business Transaction Performance|Business Transactions|*|*|Average Response Time (ms)	Average Response Time (ms)	tier,business_transaction
+APM	Business Transaction Performance|Business Transactions|*|*|Calls per Minute	Calls per Minute	tier,business_transaction
+APM	Business Transaction Performance|Business Transactions|*|*|Errors per Minute	Errors per Minute	tier,business_transaction
+APM	Business Transaction Performance|Business Transactions|*|*|95th Percentile Response Time (ms)	95th Percentile Response Time (ms)	tier,business_transaction
+APM	Business Transaction Performance|Business Transactions|*|*|Individual Nodes|*|Average Response Time (ms)	Average Response Time (ms)	tier,business_transaction,node
+APM	Business Transaction Performance|Business Transactions|*|*|Individual Nodes|*|Calls per Minute	Calls per Minute	tier,business_transaction,node
+APM	Business Transaction Performance|Business Transactions|*|*|Individual Nodes|*|Errors per Minute	Errors per Minute	tier,business_transaction,node
+APM	Business Transaction Performance|Business Transactions|*|*|External Calls|*|Average Response Time (ms)	Average Response Time (ms)	tier,business_transaction,backend
+APM	Business Transaction Performance|Business Transactions|*|*|External Calls|*|Calls per Minute	Calls per Minute	tier,business_transaction,backend
+APM	Business Transaction Performance|Business Transactions|*|*|External Calls|*|Errors per Minute	Errors per Minute	tier,business_transaction,backend
+APM	Business Transaction Performance|Business Transactions|*|*|Individual Nodes|*|External Calls|*|Average Response Time (ms)	Average Response Time (ms)	tier,business_transaction,node,backend
+APM	Business Transaction Performance|Business Transactions|*|*|Individual Nodes|*|External Calls|*|Calls per Minute	Calls per Minute	tier,business_transaction,node,backend
+APM	Business Transaction Performance|Business Transactions|*|*|Individual Nodes|*|External Calls|*|Errors per Minute	Errors per Minute	tier,business_transaction,node,backend
+APM	Service Endpoints|*|*|Average Response Time (ms)	Average Response Time (ms)	tier,service_endpoint
+APM	Service Endpoints|*|*|Calls per Minute	Calls per Minute	tier,service_endpoint
+APM	Service Endpoints|*|*|Errors per Minute	Errors per Minute	tier,service_endpoint
+APM	Service Endpoints|*|*|Individual Nodes|*|Average Response Time (ms)	Average Response Time (ms)	tier,service_endpoint,node
+APM	Service Endpoints|*|*|Individual Nodes|*|Calls per Minute	Calls per Minute	tier,service_endpoint,node
+APM	Service Endpoints|*|*|Individual Nodes|*|Errors per Minute	Errors per Minute	tier,service_endpoint,node
+APM	Errors|*|*|Errors per Minute	Errors per Minute	tier,error
+APM	Errors|*|*|Individual Nodes|*|Errors per Minute	Errors per Minute	tier,error,node
+APM	Information Points|*|Average Response Time (ms)	Average Response Time (ms)	information_point
+APM	Information Points|*|Calls per Minute	Calls per Minute	information_point
+APM	Information Points|*|Errors per Minute	Errors per Minute	information_point
+APM	Information Points|*|cartTotal	cartTotal	information_point
+ANALYTICS	Analytics|*	DOESNOTMATTER	metric_name
+ANALYTICS	Analytics|Business Journeys|*|Calls per minute	Calls per minute	business_journey
+ANALYTICS	Analytics|Business Journeys|*|Average total time	Average total time	business_journey
+ANALYTICS	Analytics|Business Journeys|*|*|Calls per minute	Calls per minute	business_journey,step
+ANALYTICS	Analytics|Business Journeys|*|*|Average time taken	Average time taken	business_journey,step
+DATABASE	Databases|*|KPI|Calls per Minute	KPI|Calls per Minute	database_name
+DATABASE	Databases|*|KPI|DB Availability	KPI|DB Availability	database_name
+DATABASE	Databases|*|KPI|Number of Connections	KPI|Number of Connections	database_name
+DATABASE	Databases|*|KPI|Time Spent in Executions (s)	KPI|Time Spent in Executions (s) 	database_name
+DATABASE	Databases|*|Server Statistic|*	DOESNOTMATTER	database_name,metric_name
+DATABASE	Databases|*|IO|*	DOESNOTMATTER	database_name,metric_name
+DATABASE	Databases|*|Engine Statistics|*|*	DOESNOTMATTER	database_name,statistic,metric_name
+BRUM	End User Experience|App|Requests per Minute	Requests per Minute	
+BRUM	End User Experience|App|Page Requests per Minute	Page Requests per Minute	
+BRUM	End User Experience|App|AJAX Requests per Minute	AJAX Requests per Minute	
+BRUM	End User Experience|App|Application Server Time (ms)	Application Server Time (ms)	
+BRUM	End User Experience|App|Browser Queue Time (ms)	Browser Queue Time (ms)	
+BRUM	End User Experience|App|DOM Building Time (ms)	DOM Building Time (ms)	
+BRUM	End User Experience|App|DOM Ready Time (ms)	DOM Ready Time (ms)	
+BRUM	End User Experience|App|Domain Lookup Time (ms)	Domain Lookup Time (ms)	
+BRUM	End User Experience|App|End User Response Time (ms)	End User Response Time (ms)	
+BRUM	End User Experience|App|First Byte Time (ms)	First Byte Time (ms)	
+BRUM	End User Experience|App|Front End Time (ms)	Front End Time (ms)	
+BRUM	End User Experience|App|HTML Download Time (ms)	HTML Download Time (ms)	
+BRUM	End User Experience|App|HTML Download and DOM Building Time (ms)	HTML Download and DOM Building Time (ms)	
+BRUM	End User Experience|App|Resource Fetch Time (ms)	Resource Fetch Time (ms)	
+BRUM	End User Experience|App|Response Available Time (ms)	Response Available Time (ms)	
+BRUM	End User Experience|App|Server Connection Time (ms)	Server Connection Time (ms)	
+BRUM	End User Experience|App|TCP Connect Time (ms)	TCP Connect Time (ms)	
+BRUM	End User Experience|Base Pages|*|Requests per Minute	Requests per Minute	base_page
+BRUM	End User Experience|Base Pages|*|Page Requests per Minute	Page Requests per Minute	base_page
+BRUM	End User Experience|Base Pages|*|AJAX Requests per Minute	AJAX Requests per Minute	base_page
+BRUM	End User Experience|Base Pages|*|Application Server Time (ms)	Application Server Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|Browser Queue Time (ms)	Browser Queue Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|DOM Building Time (ms)	DOM Building Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|DOM Ready Time (ms)	DOM Ready Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|Domain Lookup Time (ms)	Domain Lookup Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|End User Response Time (ms)	End User Response Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|First Byte Time (ms)	First Byte Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|Front End Time (ms)	Front End Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|HTML Download Time (ms)	HTML Download Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|HTML Download and DOM Building Time (ms)	HTML Download and DOM Building Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|Resource Fetch Time (ms)	Resource Fetch Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|Response Available Time (ms)	Response Available Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|Server Connection Time (ms)	Server Connection Time (ms)	base_page
+BRUM	End User Experience|Base Pages|*|TCP Connect Time (ms)	TCP Connect Time (ms)	base_page
+BRUM	End User Experience|AJAX Requests|*|Requests per Minute	Requests per Minute	ajax_request
+BRUM	End User Experience|AJAX Requests|*|Application Server Time (ms)	Application Server Time (ms)	ajax_request
+BRUM	End User Experience|AJAX Requests|*|End User Response Time (ms)	End User Response Time (ms)	ajax_request
+BRUM	End User Experience|AJAX Requests|*|First Byte Time (ms)	First Byte Time (ms)	ajax_request
+BRUM	End User Experience|AJAX Requests|*|AJAX Request Errors per Minute	AJAX Request Errors per Minute	ajax_request
+BRUM	End User Experience|Virtual Pages|*|Requests per Minute	Requests per Minute	virtual_page
+BRUM	End User Experience|Virtual Pages|*|End User Response Time (ms)	End User Response Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|Front End Time (ms)	Front End Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|HTML Download Time (ms)	HTML Download Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|HTML Download and DOM Building Time (ms)	HTML Download and DOM Building Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|DOM Building Time (ms)	DOM Building Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|DOM Ready Time (ms)	DOM Ready Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|Browser Queue Time (ms)	Browser Queue Time (ms)	virtual_page
+BRUM	End User Experience|Virtual Pages|*|Images Loaded per Pageview	Images Loaded per Pageview	virtual_page
+BRUM	End User Experience|Virtual Pages|*|Resources Loaded per Pageview	Resources Loaded per Pageview	virtual_page
+BRUM	End User Experience|Virtual Pages|*|Scripts Loaded per Pageview	Scripts Loaded per Pageview	virtual_page
+MRUM	Mobile|*|App Starts	App Starts	platform
+MRUM	Mobile|*|App Starts per Minute	App Starts per Minute	platform
+MRUM	Mobile|*|App Crashes	App Crashes	platform
+MRUM	Mobile|*|App Crashes per Minute	App Crashes per Minute	platform
+MRUM	Mobile|*|Application Server Calls per Minute	Application Server Calls per Minute	platform
+MRUM	Mobile|*|Application Server Time (ms)	Application Server Time (ms)	platform
+MRUM	Mobile|*|HTTP Errors per Minute	HTTP Errors per Minute	platform
+MRUM	Mobile|*|Network Request Time (ms)	Network Request Time (ms)	platform
+MRUM	Mobile|*|Network Response Content Length (bytes)	Network Response Content Length (bytes)	platform
+MRUM	Mobile|*|Network Errors per Minute	Network Errors per Minute	platform
+MRUM	Mobile|*|Requests per Minute	Requests per Minute	platform
+MRUM	Mobile|*|Apps|*|Requests|*|Application Server Time (ms)	Application Server Time (ms)	platform,app_name,network_request
+MRUM	Mobile|*|Apps|*|Requests|*|HTTP Errors per Minute	HTTP Errors per Minute	platform,app_name,network_request
+MRUM	Mobile|*|Apps|*|Requests|*|Network Request Time (ms)	Network Request Time (ms)	platform,app_name,network_request
+MRUM	Mobile|*|Apps|*|Requests|*|Network Response Content Length (bytes)	Network Response Content Length (bytes)	platform,app_name,network_request
+MRUM	Mobile|*|Apps|*|Requests|*|Network Errors per Minute	Network Errors per Minute	platform,app_name,network_request
+MRUM	Mobile|*|Apps|*|Requests|*|Requests per Minute	Requests per Minute	platform,app_name,network_request
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|CPU|%Busy	CPU|%Busy	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Disks|Writes/sec	Disks|Write/sec	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Disks|Reads/sec	Disks|Reads/sec	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Memory|Used %	Memory|Used %	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Load|Last 1 minute	Load|Last 1 minute	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Load|Last 5 minutes	Load|Last 5 minutes	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Load|Last 15 minutes	Load|Last 15 minutes	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Network|Incoming KB/sec	Network|Incoming KB/sec	tier,node
+SIM	Application Infrastructure Performance|*|Individual Nodes|*|Hardware Resources|Network|Outgoing KB/sec	Network|Outgoing KB/sec	tier,node
